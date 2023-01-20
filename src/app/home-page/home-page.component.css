@@ -1,0 +1,164 @@
+.container{
+    font-size: large;
+    font-weight: bold;
+ 
+    
+}
+.image-size{
+    height: 43vh;
+}
+.jumbotron{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+/* .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+
+  .bg-container{
+    background-image: url("https://previews.123rf.com/images/dash/dash2005/dash200500137/148091974-fashion-women-stylish-accessories-outfit-composition-flat-lay-pink-pastel-background-table-with-copy.jpg?fj=1");
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+    /* font-weight:bold; */
+    
+  }
+
+  .container1-fluid{
+    color: black;
+    background-color:#E8C4C4;
+  }
+  
+
+  *{
+
+    margin: 0;
+
+    padding: 0;
+
+    /* box-sizing: border-box; */
+
+    font-family: 'Poppins', sans-serif;
+
+   
+
+}
+
+
+
+.header{
+
+    width: 100%;
+
+    height: 100vh;
+
+    padding:  0;
+
+    background-size: 100%;
+
+    font-size: 15px;
+
+    background: #ffffff;
+
+}
+
+
+
+nav{
+
+    width: 100%;
+
+    display:flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 1px 0;
+
+    position: relative;
+
+    background-color: rgb(255, 255, 255);
+
+    background-repeat: no-repeat;
+
+    z-index: 100;
+
+   
+
+}
+
+
+
+nav ul li{
+
+    display: inline-block;
+
+    list-style: none;
+
+    margin: 10px 30px;
+
+}
+
+
+
+nav ul li a{
+
+    text-decoration: none;
+
+    color:black;
+
+}
+
+
+
+.searchbox {  
+     padding-right: 10vh;
+    float:  right;  
+    position: relative;
+    right: -900px;
+    }  
+
+    input[type=text] {  
+
+    padding: 6px;  
+
+    margin-top: -50px;  
+
+    font-size: 13px;  
+
+    border: none;  
+
+    }  
+
+    .searchbox button {  
+
+     
+
+    padding: 8px;  
+
+    /* margin-top: -10px;  
+
+    margin-left: 10px;   */
+
+    /* background: rgb(235, 233, 231);   */
+
+    font-size: 15px;  
+
+    border: none;  
+
+    cursor: pointer;  
+    position: relative;
+    bottom: 20px;
+    
+
+    }  
+
+ 
